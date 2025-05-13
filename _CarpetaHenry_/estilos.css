@@ -1,0 +1,14 @@
+#header{
+    border: 1em solid rgb(229, 0, 0);
+    flex-direction: row;
+}
+
+#img_header{
+    width: 10%;
+    height: 10%;
+}
+
+#menu{
+    background-color: #037d1e;
+    padding: 10px;
+}
