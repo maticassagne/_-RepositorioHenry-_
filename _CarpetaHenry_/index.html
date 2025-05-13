@@ -3,38 +3,40 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./reset.css">
+      <link rel="stylesheet" href="./reset.css"> <!--Reinicio de estilos-->
       <link rel="stylesheet" href="./estilos.css">
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
         <header><!-- Encabezado-->
             <div id="header">
-                <h1>Huerto en casa</h1>
                 <img src="assets/logoheader.avif" alt="img_logo" id="img_header">
+                <h1>Huerto en casa</h1>
                 <div id="menu">
-                <span>Jardineria</span>        
-                <span>Fertilizantes</span>
-                <span>Calendario de siembra</span>
-                <span>Insectos & Plagas</span>
+                    <span>Jardineria</span>        
+                    <span>Fertilizantes</span>
+                    <span>Calendario de siembra</span>
+                    <span>Insectos & Plagas</span>
                 </div>
-            </div>
+            </div>    
         </header>
         <main><!-- Contenido Principal-->
             <div>
-                <aside>Introduccion</aside>
-                <p>Mama tierra te invita a conocer los secretos de los huertos hogareños</p>
+                <aside class="intro">
+                    <h3>Introduccion</h3>
+                    <p>Mama tierra te invita a conocer los secretos de los huertos hogareños</p>
+                </aside>
             </div>
             <div>
-                <section>
-                    <h2>Cómo eliminar mosquitas del sustrato</h2>
-                    <img src="assets/mosquitas_sustrato.jpg" alt="img_sustr">
+                <section class="seccion">
+                    <h2 class="subtitulo">Cómo eliminar mosquitas del sustrato</h2>
+                    <img class="img_subtitulo" src="assets/mosquitas_sustrato.jpg" alt="img_sustr">
                     <p>Veremos cómo eliminar esas molestas e insistentes mosquitas del sustrato que aparecen en nuestras plantas.</p>
                     <a href="links/mosquitas.html">Leer más..</a>
                 </section>
-                <section>
-                    <h2>Hormigas en el jardin de casa</h2>
-                    <img src="assets/Hormiga-llevando-huevo.jpg" alt="Hormiga">
+                <section class="seccion">
+                    <h2 class="subtitulo">Hormigas en el jardin de casa</h2>
+                    <img class="img_subtitulo" src="assets/Hormiga-llevando-huevo.jpg" href="links/hormigas.html" alt="Hormiga">
                     <p>Muchas veces solemos encontrar hormigas en el jardin en casa y no nos preocupamos si vemos unas pocas. Debemos controlar su población para evitar estragos.</p>
                     <a href="links/hormigas.html">Leer más..</a>
                 </section>
